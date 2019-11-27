@@ -29,7 +29,6 @@ Future<void> cangeText({BuildContext context, ModelText modelText}) async {
                   ? _textFieldController.text
                   : _textdecor;
               modelText.texthey = _newtxt;
-              //runApp(MyApp());
               Navigator.of(context).pop();
             },
           ),
